@@ -15,7 +15,7 @@ try:
                 client.torrents_delete(delete_files=False, torrent_hashes =torrent.hash)
                 print(f'{torrent.name} is deleted...')
         # decide how long to wait for next check in seconds
-        time.sleep(10)  #change to desired interval in seconds
+        time.sleep(10) 
 
 except KeyboardInterrupt:
     pass
