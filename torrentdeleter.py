@@ -1,6 +1,6 @@
 import qbittorrentapi
-from qbittorrentapi import Client
 import time
+from qbittorrentapi import Client
 
 client = Client(host='localhost:8080', username='admin', password='<insert your password here>')
 
